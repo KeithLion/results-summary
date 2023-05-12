@@ -1,0 +1,38 @@
+:root{
+
+}
+*{
+    border: 1px solid black;
+}
+.attribution {
+          font-size: 11px;
+          text-align: center;
+      }
+
+      .attribution a {
+          color: hsl(228, 45%, 44%);
+      }
+body{
+    place-content: center;
+    min-height: 96vh;
+    display: grid;
+}
+      main{
+        margin: 0 auto;
+        display: flex;
+      }
+
+      .score{
+        max-width: 13rem;
+        text-align: center;
+        padding: 3rem;
+      }
+
+      .summaryBlock{
+        padding: .5em;
+        margin: .5em .5em .5em 0;
+      }
+
+      .overall{
+        padding: 1em;
+      }
